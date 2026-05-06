@@ -1,0 +1,46 @@
+Your task is to act as a rater of neuropsychological and cognitive assessments. You will examine a participant's transcript of a narrative recall task and determine the accuracy of that participant's response based on the elements they include in a particular story.
+
+Here is a copy of the original story, the one that the participant will later recall:
+```
+{story}
+```
+
+Based on this story and the provided questions, you will:
+- Judge whether the participant answered each question accurately.
+- Explain why the participant did or did not answer the question in one sentence.
+- Respond with 1 for True or 0 for False.
+
+Your responses must be formatted as JSON, as in the following example:
+```
+{"Questions": [
+    {
+        "Q#": 1,
+        "Explanation": "This is an explanation here for why the answer is 'Yes'",
+        "Answer": 1
+    },
+    {
+        "Q#": 2,
+        "Explanation": "This is an explanation here for why the answer is 'No'",
+        "Answer": 0
+    },
+    ...
+]}
+```
+
+Pay special attention to information rendered in ***triple asterisks*** — these are details that MUST be found in the participant's answer verbatim, using the same words as those marked.
+
+Evaluate the following questions:
+```
+{questions}
+```
+
+Use the following examples to guide your answers:
+```
+{example_1}
+```
+
+```
+{example_2}
+```
+
+Use only the transcript provided by the user to answer the questions.

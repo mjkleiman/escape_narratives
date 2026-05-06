@@ -1,0 +1,290 @@
+Example 1 Transcript: "Okay, um, two people, Larry and someone else, were walking in the park with their dog Carrie and they, um, ran into friends they hadn't seen in quite a while and decided to, uh, go out to lunch and then they realized Carrie had slipped out of her leash. They called her and she didn't come. And, uh, they went looking for her in parks and a school and the, uh, ball fields and they couldn't find her. And they finally found her under a bench chewing a bone and, uh, then they went to go to lunch afterwards."
+
+Example 1 Response:
+[
+  {
+    "id": 1,
+    "score": 0,
+    "explanation": "The participant did not mention a specific time period for when the story took place."
+  },
+  {
+    "id": 2,
+    "score": 0,
+    "explanation": "The participant did not specifically describe that this event took place 'last weekend'."
+  },
+  {
+    "id": 3,
+    "score": 1,
+    "explanation": "The participant identified a man's name as Larry."
+  },
+  {
+    "id": 4,
+    "score": 0,
+    "explanation": "The participant incorrectly identified the man's name as 'Larry' instead of 'Harry'."
+  },
+  {
+    "id": 5,
+    "score": 0,
+    "explanation": "The participant mentioned 'someone else', which implies another person, but they did not provide a name."
+  },
+  {
+    "id": 6,
+    "score": 0,
+    "explanation": "The participant did not correctly identify the name 'Danielle'."
+  },
+  {
+    "id": 7,
+    "score": 1,
+    "explanation": "The participant identified a pet in the story."
+  },
+  {
+    "id": 8,
+    "score": 1,
+    "explanation": "The participant correctly identified that the story was about a dog."
+  },
+  {
+    "id": 9,
+    "score": 1,
+    "explanation": "The participant identified that the dog had a name, 'Carrie'."
+  },
+  {
+    "id": 10,
+    "score": 0,
+    "explanation": "The participant incorrectly recalled the dog's name as 'Carrie' instead of 'Maddy'."
+  },
+  {
+    "id": 11,
+    "score": 1,
+    "explanation": "The participant described that the event took place in a park."
+  },
+  {
+    "id": 12,
+    "score": 1,
+    "explanation": "The participant correctly recalled that the event took place in a park."
+  },
+  {
+    "id": 13,
+    "score": 1,
+    "explanation": "The participant described the characters meeting with friends."
+  },
+  {
+    "id": 14,
+    "score": 1,
+    "explanation": "The participant recalled that the characters 'ran into friends'."
+  },
+  {
+    "id": 15,
+    "score": 1,
+    "explanation": "The participant implied that the characters hadn't seen their friends in a long time by saying 'hadn't seen in quite a while'."
+  },
+  {
+    "id": 16,
+    "score": 0,
+    "explanation": "The participant did not specifically recall that the characters hadn't seen their friends 'in years'."
+  },
+  {
+    "id": 17,
+    "score": 1,
+    "explanation": "The participant described an action between the characters and their friends, deciding to go out to lunch."
+  },
+  {
+    "id": 18,
+    "score": 0,
+    "explanation": "The participant did not specifically recall that the characters had a 'conversation' with their friends."
+  },
+  {
+    "id": 19,
+    "score": 0,
+    "explanation": "The participant did not describe anything specific that the characters were speaking to others about."
+  },
+  {
+    "id": 20,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that the conversation was 'about their lives'."
+  },
+  {
+    "id": 21,
+    "score": 1,
+    "explanation": "The participant identified plans made during the conversation, to go out to lunch."
+  },
+  {
+    "id": 22,
+    "score": 0,
+    "explanation": "The participant stated that the plans were for lunch, not dinner."
+  },
+  {
+    "id": 23,
+    "score": 0,
+    "explanation": "The participant did not identify when any plans were to take place."
+  },
+  {
+    "id": 24,
+    "score": 0,
+    "explanation": "The participant did not state that the date for the dinner was 'Thursday'."
+  },
+  {
+    "id": 25,
+    "score": 0,
+    "explanation": "The participant did not describe a location for where the characters planned to have a meal."
+  },
+  {
+    "id": 26,
+    "score": 0,
+    "explanation": "The participant did not correctly recall that the setting for the dinner was at Luigi's."
+  },
+  {
+    "id": 27,
+    "score": 1,
+    "explanation": "The participant identified that something happened to the dog: she slipped out of her leash."
+  },
+  {
+    "id": 28,
+    "score": 1,
+    "explanation": "The participant correctly recalled that the dog had slipped 'out of her leash'."
+  },
+  {
+    "id": 29,
+    "score": 0,
+    "explanation": "The participant did not correctly identify when the characters noticed the dog got out of her leash."
+  },
+  {
+    "id": 30,
+    "score": 0,
+    "explanation": "The participant did not state that the dog got out of her leash 'after they said goodbye to their friends'."
+  },
+  {
+    "id": 31,
+    "score": 1,
+    "explanation": "The participant mentioned actions taken by the characters to find the dog, such as calling her and looking for her."
+  },
+  {
+    "id": 32,
+    "score": 0,
+    "explanation": "The participant did not use the word 'searched'."
+  },
+  {
+    "id": 33,
+    "score": 1,
+    "explanation": "The participant indicated that the search took place in parks."
+  },
+  {
+    "id": 34,
+    "score": 1,
+    "explanation": "The participant correctly identified that the search took place in parks."
+  },
+  {
+    "id": 35,
+    "score": 1,
+    "explanation": "The participant mentioned attempts to communicate or locate the dog by calling her."
+  },
+  {
+    "id": 36,
+    "score": 1,
+    "explanation": "The participant correctly recalled that the characters were 'calling her'."
+  },
+  {
+    "id": 37,
+    "score": 0,
+    "explanation": "The participant only mentioned that 'they' went looking, and so did not mention a specific location that 'only' the male character checked during the search."
+  },
+  {
+    "id": 38,
+    "score": 0,
+    "explanation": "The participant only mentioned that 'they' went looking, and so the participant did not mention more than one location that 'only' the male character checked during the search."
+  },
+  {
+    "id": 39,
+    "score": 1,
+    "explanation": "The participant correctly identified that one of the locations searched was 'the school'."
+  },
+  {
+    "id": 40,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that one of the locations 'only' the male character searched was 'the school'."
+  },
+  {
+    "id": 41,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that one of the locations searched was 'the playground'."
+  },
+  {
+    "id": 42,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that one of the locations 'only' the male character searched was 'the playground'."
+  },
+  {
+    "id": 43,
+    "score": 0,
+    "explanation": "The participant did not mention any specific location that 'only' the female character checked during the search."
+  },
+  {
+    "id": 44,
+    "score": 0,
+    "explanation": "The participant did not mention more than one location that 'only' the female character checked during the search."
+  },
+  {
+    "id": 45,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that one of the locations searched was 'the baseball field'."
+  },
+  {
+    "id": 46,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that one of the locations 'only' the female character searched was 'the baseball field'."
+  },
+  {
+    "id": 47,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that one of the locations searched was 'the soccer field'."
+  },
+  {
+    "id": 48,
+    "score": 0,
+    "explanation": "The participant did not correctly identify that one of the locations 'only' the female character searched was 'the soccer field'."
+  },
+  {
+    "id": 49,
+    "score": 1,
+    "explanation": "The participant mentioned the outcome of the search, 'they found her'."
+  },
+  {
+    "id": 50,
+    "score": 1,
+    "explanation": "The participant correctly recalled that they 'found' the dog."
+  },
+  {
+    "id": 51,
+    "score": 1,
+    "explanation": "The participant identified what the dog was doing when the characters found her, 'chewing a bone'."
+  },
+  {
+    "id": 52,
+    "score": 0,
+    "explanation": "The participant did not correctly recall that the dog was 'playing with a stick'."
+  },
+  {
+    "id": 53,
+    "score": 1,
+    "explanation": "The participant identified where the dog was found, 'under a bench'."
+  },
+  {
+    "id": 54,
+    "score": 1,
+    "explanation": "The participant correctly recalled that the dog was found 'under a bench'."
+  },
+  {
+    "id": 55,
+    "score": 0,
+    "explanation": "The participant did not state the location that the dog was found in relation to an earlier location discussed in the story."
+  },
+  {
+    "id": 56,
+    "score": 0,
+    "explanation": "The participant did not explicitly state that the dog was found 'near where they stopped to talk'."
+  },
+  {
+    "id": 57,
+    "score": 1,
+    "explanation": "The participant mentioned the gender of the dog by using 'her'."
+  }
+]

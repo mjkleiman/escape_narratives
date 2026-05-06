@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Command pandoc -ErrorAction SilentlyContinue)",
+      "Bash(python -c \"from docx import Document; doc = Document\\('pe_scoring.docx'\\); print\\('paragraphs:', len\\(doc.paragraphs\\)\\); print\\('tables:', len\\(doc.tables\\)\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
