@@ -1,21 +1,21 @@
 id,question,scoring_method,keywords,category,event,weight
-1,"Did the participant give a time period for when the story took place (e.g., yesterday, last week, last month, etc)?",llm,,time,background,1.0
+1,"Did the participant give any time period for when the story took place (e.g., yesterday, last week, last month)?",llm,,time,background,1.0
 2,Did the participant specifically describe that this event took place ***last week***?,keyword,last week,time,background,0.5
-3,Did the participant identify a man's name as a character in the story? This should not be the name of a restaurant or store or the name of a dog.,llm,,subject,background,1.0
-4,Did the participant correctly identify the name ***Harry***? Also accepted is 'Harold' or 'Henry'.,keyword,Harry;Harold;Henry,name,background,3.0
-5,Did the participant identify a woman's name as a character in the story? This should not be the name of a restaurant or store or the name of a dog.,llm,,subject,background,1.0
-6,Did the participant correctly identify the name ***Danielle***? Also accepted is 'Dani' or 'Danny'.,keyword,Danielle;Dani;Danny,name,background,3.0
-7,Did the participant identify a pet or animal in the story?,llm,,subject,background,1.0
-8,Did the participant correctly recall that the story was about a dog?,keyword,dog;puppy;canine,subject,background,2.0
-9,"Did the participant identify that the animal or pet had a name, even if it is incorrect?",llm,,name,background,1.0
-10,Did the participant correctly recall that the pet's name is ***Maddy*** or ***Maddie***? Also accepted is 'Madison' or 'Mary'.,keyword,Maddy;Maddie;Madison;Mary,name,background,3.0
-11,"Did the participant describe a general location where the story took place (e.g., in a park, on a playground, around a trail)?",llm,,location,background,1.0
+3,"Did the participant identify any man's name as a character in the story? (Not the name of a restaurant, store, or dog.)",llm,,subject,background,1.0
+4,"Did the participant correctly identify the name ***Harry***? Accepted: Harry, Harold, Henry",keyword,Harry;Harold;Henry,name,background,3.0
+5,"Did the participant identify any woman's name as a character? (Not a restaurant, store, or dog.)",llm,,subject,background,1.0
+6,"Did the participant correctly identify the name ***Danielle***? Accepted: Danielle, Dani, Danny",keyword,Danielle;Dani;Danny,name,background,3.0
+7,Did the participant identify any pet or animal in the story?,llm,,subject,background,1.0
+8,Did the participant correctly recall that the story was about a ***dog***? Accepted: dog; puppy; canine,keyword,dog;puppy;canine,subject,background,2.0
+9,"Did the participant identify that the animal had any name, even if it is incorrect?",llm,,name,background,1.0
+10,"Did the participant correctly recall that the pet's name is ***Maddy***? Accepted: Maddy, Madison, Mary",keyword,Maddy;Maddie;Madison;Mary,name,background,3.0
+11,"Did the participant describe a general location where the story took place (e.g., a park, playground, trail)?",llm,,location,background,1.0
 12,Did the participant correctly recall that the event took place in a ***park***?,keyword,park,location,background,2.0
 13,Did the participant describe the characters meeting with another person or group of people?,llm,,action,meeting,1.0
-14,Did the participant recall that the characters ran into some old ***friends***?,keyword,friends;friend;acquaintances;old friends,action,meeting,2.0
+14,"Did the participant recall that the characters ran into some old ***friends***? Accepted: friends, acquaintances",keyword,friends;friend;acquaintances;old friends,action,meeting,2.0
 15,Did the participant imply that the characters hadn't seen their friends in a long time?,llm,,time,meeting,0.5
 16,Did the participant specifically recall that the characters hadn't seen their friends in ***years***?,keyword,years;year,time,meeting,1.0
-17,Did the participant describe any action between the characters and another person or group of people?,llm,,action,meeting,1.0
+17,Did the participant describe any action between the characters and another person or group?,llm,,action,meeting,1.0
 18,Did the participant recall that the characters had a ***conversation*** with friends?,hybrid,conversation;talked;talk;spoke;chatted;chat;speaking;discussing,action,meeting,2.0
 19,Did the participant describe anything that the characters were speaking to others about?,llm,,description,conversation,0.5
 20,Did the participant correctly identify that the conversation was ***about their lives***?,hybrid,lives;life,description,conversation,1.0
@@ -26,33 +26,33 @@ id,question,scoring_method,keywords,category,event,weight
 25,Did the participant describe a general location for where the characters planned to have a meal?,hybrid,restaurant;venue;italian;diner;eatery;out to eat,location,conversation,1.0
 26,Did the participant correctly recall that the setting for the dinner was at ***Luigi's***?,keyword,Luigi;Luigi's;Luigis,location,conversation,2.0
 27,Did the participant identify that something happened to the animal/pet?,llm,,action,search,1.0
-28,Did the participant correctly recall that the dog Maddy or another animal had gotten out of her ***leash***?,keyword,leash;lead;collar,action,search,2.0
-29,"Did the participant state a time that the characters noticed when the animal got out of her leash (e.g., while they were talking, after they said goodbye, in the afternoon)?",llm,,time,search,1.0
+28,"Did the participant correctly recall that the dog Maddy (or another animal) had gotten out of her ***leash***? Accepted: leash, lead, collar",keyword,leash;lead;collar,action,search,2.0
+29,"Did the participant state any time when the characters noticed the animal got out of her leash (e.g., while talking, after saying goodbye, in the afternoon)?",llm,,time,search,1.0
 30,Did the participant correctly state that Maddy got out of her leash after they said goodbye to their friends?,hybrid,goodbye;bye;farewell;parted,time,search,1.0
 31,Did the participant mention any actions taken by the characters to find something or someone?,llm,,action,search,1.0
-32,Did the participant use the word ***searched*** to describe what the characters were doing?,keyword,searched;search;searching;looked for;look for;looking for;tried to find;trying to find,action,search,2.0
-33,Did the participant indicate a location for where the characters were searching?,llm,,location,search,1.0
+32,"Did the participant use the word ***searched*** to describe what the characters were doing? Accepted: searched, looked for, tried to find",keyword,searched;search;searching;looked for;look for;looking for;tried to find;trying to find,action,search,2.0
+33,Did the participant indicate any location for where the characters were searching?,llm,,location,search,1.0
 34,Did the participant correctly identify that the characters were searching in the ***park***?,keyword,park,location,search,2.0
-35,Did the participant describe any attempts made by the characters to communicate or locate someone?,llm,,action,search,1.0
+35,Did the participant describe any attempts made by the characters to communicate with or locate someone?,llm,,action,search,1.0
 36,Did the participant correctly recall that the characters were calling out ***her name***?,hybrid,name;called;calling;yelled;shouted,action,search,2.0
-37,Did the participant mention any specific location that the male character (NOT the female character) checked during the search?,llm,,location,search,0.5
-38,Did the participant mention more than one location that the male character (NOT the female character) checked during the search?,hybrid,school;playground,location,search,0.5
+37,Did the participant mention any specific location that the male character checked during the search?,llm,,location,search,0.5
+38,Did the participant mention more than one location that the male character checked during the search?,hybrid,school;playground,location,search,0.5
 39,Did the participant correctly identify that one of the locations searched was the ***school***?,keyword,school,location,search,2.0
-40,Did the participant correctly identify that one of the locations the male character (NOT the female character) searched was the ***school***?,hybrid,school,location,search,1.0
+40,Did the participant correctly identify that one of the locations the male character searched was the ***school***?,hybrid,school,location,search,1.0
 41,Did the participant correctly identify that one of the locations searched was the ***playground***?,keyword,playground,location,search,2.0
-42,Did the participant correctly identify that one of the locations the male character (NOT the female character) searched was the ***playground***?,hybrid,playground,location,search,1.0
-43,Did the participant mention any specific location that the female character (NOT the male character) checked during the search?,llm,,location,search,0.5
-44,Did the participant mention more than one location that the female character (NOT the male character) checked during the search?,hybrid,baseball;soccer,location,search,0.5
-45,Did the participant correctly identify that one of the locations searched was the ***baseball field***?,keyword,baseball field;baseball;ball field,location,search,2.0
-46,Did the participant correctly identify that one of the locations the female character (NOT the male character) searched was the ***baseball field***?,hybrid,baseball,location,search,1.0
-47,Did the participant correctly identify that one of the locations searched was the ***soccer field***?,keyword,soccer field;soccer;football field;football,location,search,2.0
-48,Did the participant correctly identify that one of the locations the female character (NOT the male character) searched was the ***soccer field***?,hybrid,soccer;football,location,search,1.0
+42,Did the participant correctly identify that one of the locations the male character searched was the ***playground***?,hybrid,playground,location,search,1.0
+43,Did the participant mention any specific location that the female character checked during the search?,llm,,location,search,0.5
+44,Did the participant mention more than one location that the female character checked during the search?,hybrid,baseball;soccer,location,search,0.5
+45,"Did the participant correctly identify that one of the locations searched was the ***baseball field***? Accepted: baseball field, ball field",keyword,baseball field;baseball;ball field,location,search,2.0
+46,Did the participant correctly identify that one of the locations the female character searched was the ***baseball field***?,hybrid,baseball,location,search,1.0
+47,"Did the participant correctly identify that one of the locations searched was the ***soccer field***? Accepted: soccer field, football field",keyword,soccer field;soccer;football field;football,location,search,2.0
+48,Did the participant correctly identify that one of the locations the female character searched was the ***soccer field***?,hybrid,soccer;football,location,search,1.0
 49,Did the participant mention the outcome of the search?,llm,,action,resolution,1.0
-50,Did the participant correctly identify that they ***found*** the dog?,keyword,found;find;located;discovered;noticed,action,resolution,2.0
-51,"Did the participant identify something the dog was doing when the characters found her? This must include the dog's action, not just its location.",llm,,action,resolution,1.0
+50,"Did the participant correctly identify that they ***found*** the dog? Accepted: found, located, discovered, noticed",keyword,found;find;located;discovered;noticed,action,resolution,2.0
+51,"Did the participant identify anything the dog was doing when the characters found her (action, not just location)?",llm,,action,resolution,1.0
 52,Did the participant correctly recall that the dog was ***playing with a stick***?,hybrid,stick,action,resolution,2.0
-53,"Did the participant identify where the dog was found? This must include the location, not only its action.",llm,,location,resolution,1.0
+53,"Did the participant identify where the dog was found (location, not just action)?",llm,,location,resolution,1.0
 54,Did the participant correctly recall that the dog was found ***under a bench***?,hybrid,bench,location,resolution,2.0
-55,"Did the participant state the location that the dog was found in relation to an earlier location discussed in the story (e.g., near the park, where they talked with friends)?",llm,,location,resolution,1.0
+55,"Did the participant state any location where the dog was found in relation to an earlier location in the story (e.g., near the park, where they talked with friends)?",llm,,location,resolution,1.0
 56,Did the participant explicitly state that the dog was found near where they stopped to talk with friends?,hybrid,friends;talked;conversation;spoke;chatted,location,resolution,2.0
-57,Did the participant mention the gender of the animal in the story?,llm,,subject,resolution,1.0
+57,Did the participant mention the sex (male/female) of the animal in the story?,llm,,subject,resolution,1.0
