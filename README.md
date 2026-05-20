@@ -1,5 +1,7 @@
 # Escape Narratives for Narrative Recall Assessment
 
+[![DOI](https://zenodo.org/badge/1230257909.svg)](https://doi.org/10.5281/zenodo.20314325)
+
 This repository contains the **Puppy Escape** narrative, the **scoring criteria** used to evaluate participant recall, and the **prompts** used to score recall responses automatically with large language models and embedding-based methods.
 
 The Escape narratives are brief story-recall narratives designed for use in narrative recall cognitive assessment. Participants are visually shown *and* verbally read the narrative. They are then asked to provide an immediate free-recall response, and after a 15-20 minute delay, a delayed free-recall response. Recall is scored against a structured rubric of story categories and events. Manual scoring is aided by a reduced 18-item rubric, which scores only content units shown to be most useful at identifying early-stage impairment.
