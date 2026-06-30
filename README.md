@@ -1,7 +1,4 @@
 # Escape Narratives for Narrative Recall Assessment
-
-[![DOI](https://zenodo.org/badge/1230257909.svg)](https://doi.org/10.5281/zenodo.20314325)
-
 This repository contains the **Puppy Escape** narrative, the **scoring criteria** used to evaluate participant recall, and the **prompts** used to score recall responses automatically with large language models and embedding-based methods.
 
 The Escape narratives are brief story-recall narratives designed for use in narrative recall cognitive assessment. Participants are visually shown *and* verbally read the narrative. They are then asked to provide an immediate free-recall response, and after a 15-20 minute delay, a delayed free-recall response. Recall is scored against a structured rubric of story categories and events. Manual scoring is aided by a reduced 18-item rubric, which scores only content units shown to be most useful at identifying early-stage impairment.
@@ -13,8 +10,7 @@ The Escape narratives are brief story-recall narratives designed for use in narr
 | `puppy_escape/narrative/` | The Puppy Escape narrative text and any associated stimulus materials |
 | `puppy_escape/scoring/` | Puppy Escape scoring criteria — category-level and event-level rubrics, with reference targets and acceptable paraphrases |
 | `puppy_escape/prompts/` | Puppy Escape prompts and prompt templates used for automated scoring (LLM judging, embedding-based matching, and word-level matching) |
-| `LICENSE` | CC BY-NC 4.0 license text |
-| `LICENSE-CLINICAL-EXCEPTION.md` | Clinical and Internal Digital Use Exception (see below) |
+| `LICENSE.pdf` | License text |
 
 ## Scoring overview
 
@@ -40,9 +36,9 @@ If you use the narrative, scoring criteria, or prompts in published work, please
 
 ## License
 
-The contents of this repository are released under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**, with a **Clinical, Research, and Internal Digital Use Exception**.
+The contents of this repository are released under a Non-Exclusive Copyright License Agreement jointly granted by Dr Michael Kleiman and the University of Miami.
 
-- **Allowed without a separate license:** academic and research use under CC BY-NC 4.0; routine clinical use and internal digitization by research entities, healthcare providers, clinics, and hospital systems for internal use and the care of their own patients. Fee-for-service clinical use is expressly permitted.
+- **Allowed without a separate license:** academic and research use, routine clinical use by healthcare providers, clinics,research entities, and hospital systems for internal use and the care of their own patients. Fee-for-service clinical use is permitted.
 - **Requires a separate commercial license:** inclusion in any product, platform, or service that is sold, licensed for a fee, syndicated, or otherwise commercially distributed to third parties.
 
 ## Commercial Licensing
@@ -52,6 +48,6 @@ techtransfer@miami.edu.
 
 ## Copyright
 
-Puppy Escape Narrative © 2016-2026 Michael J. Kleiman. 
+Puppy Escape Narrative © 2015-2026 Michael J. Kleiman. 
 
 Puppy Escape scoring criteria © 2026 University of Miami.
