@@ -39,7 +39,9 @@ If you use the narrative, scoring criteria, or prompts in published work, please
 
 The contents of this repository are released under a Non-Exclusive Copyright License Agreement jointly granted by Dr Michael Kleiman and the University of Miami.
 
-- **Allowed without a separate license:** academic and research use, routine clinical use by healthcare providers, clinics,research entities, and hospital systems for internal use and the care of their own patients. Fee-for-service clinical use is permitted.
+You must request access using our web form before use: https://umiamibrainhealth.org/escape-narratives/
+
+- **Allowed without a separate license:** academic and research use, routine clinical use by healthcare providers, clinics, research entities, and hospital systems for internal use and the care of their own patients. Fee-for-service clinical use is permitted.
 - **Requires a separate commercial license:** inclusion in any product, platform, or service that is sold, licensed for a fee, syndicated, or otherwise commercially distributed to third parties.
 
 ## Commercial Licensing
