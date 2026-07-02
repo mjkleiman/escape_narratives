@@ -1,6 +1,6 @@
 # NON-EXCLUSIVE COPYRIGHT LICENSE AGREEMENT
 
-This non-exclusive copyright license agreement (“Agreement”) is entered into by and between the Licensee named below and jointly the University of Miami and Dr. Michael Kleiman (collectively “Licensor”). The Agreement is effective as of the date of the final signature (“Effective Date”). Licensor is granting Licensee such rights in consideration of benefits Licensor receives from making the Material available under the terms and conditions of the Agreement.
+This non-exclusive copyright license agreement (“Agreement”) is entered into by and between the Licensee and jointly the University of Miami and Dr. Michael Kleiman (collectively “Licensor”). The Agreement is effective as of the date of the final signature (“Effective Date”). Licensor is granting Licensee such rights in consideration of benefits Licensor receives from making the Material available under the terms and conditions of the Agreement.
 
 1. **Grant**. Subject to the terms and conditions of this Agreement, Licensor grants Licensee a worldwide, non-exclusive, non-sublicensable license to reproduce, use, and otherwise utilize any copyright rights related to the Material and to the extent Licensor is authorized to license, only for the following permitted uses:
      - 1.1. Use of the Material that is not primarily intended for or directed toward commercial advantage or monetary compensation (“Noncommercial Use”), including, but not limited to, Noncommercial Use by a nonprofit academic or research institution regardless of funding source; or
