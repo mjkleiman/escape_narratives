@@ -11,7 +11,7 @@ The Escape narratives are brief story-recall narratives designed for use in narr
 | `puppy_escape/narrative/` | The Puppy Escape narrative text and any associated stimulus materials |
 | `puppy_escape/scoring/` | Puppy Escape scoring criteria — category-level and event-level rubrics, with reference targets and acceptable paraphrases |
 | `puppy_escape/prompts/` | Puppy Escape prompts and prompt templates used for automated scoring (LLM judging, embedding-based matching, and word-level matching) |
-| `LICENSE.pdf` | License text |
+| `LICENSE.md` | License text for Non-Exclusive Copyright License Agreement |
 
 ## Scoring overview
 
