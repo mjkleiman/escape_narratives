@@ -46,8 +46,7 @@ You must request access using our web form before use: https://umiamibrainhealth
 
 ## Commercial Licensing
 
-The Escape Narratives scoring criteria are owned by the University of Miami. For commercial licensing inquiries regarding the use of the narrative and scoring criteria, please contact the University of Miami Office of Technology Transfer at 
-techtransfer@miami.edu.
+The Escape Narratives scoring criteria are owned by the University of Miami. For commercial licensing inquiries regarding the use of the narrative and scoring criteria, please submit a request at https://umiamibrainhealth.org/escape-narratives/
 
 ## Copyright
 
