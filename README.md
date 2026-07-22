@@ -33,7 +33,7 @@ These materials are intended for research and clinical assessment of memory and 
 
 ## Citation
 
-If you use the narrative, scoring criteria, or prompts in published work, please cite this repository. A formal citation entry will be added once the associated manuscript is published.
+If you use the narrative, scoring criteria, or prompts in published work, please cite our medRxiv preprint: [doi:10.64898/2026.07.01.26357019](https://doi.org/10.64898/2026.07.01.26357019)
 
 ## License
 
